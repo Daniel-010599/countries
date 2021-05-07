@@ -20,7 +20,7 @@ const Detail = (props) =>{
             setLanguages(result[0].languages);
             setTopLevelDomain(result[0].topLevelDomain);
         })
-    }, []);
+    }, [path]);
 
     return(
         <div className="w-75 m-auto">
