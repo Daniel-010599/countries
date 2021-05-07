@@ -10,7 +10,7 @@ Dark Mode
 
 ![desktop-design-home-dark](https://user-images.githubusercontent.com/66961947/117393129-1043e580-aeb9-11eb-8198-a3bae6ff6f4f.jpg)
 
-Ligth Mode
+Light Mode
 
 ![desktop-design-detail-light](https://user-images.githubusercontent.com/66961947/117393139-176af380-aeb9-11eb-971f-aafa9e9fed44.jpg)
 
