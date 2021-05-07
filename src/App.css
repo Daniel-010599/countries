@@ -1,0 +1,59 @@
+.App {
+  background-color:var(--backApp);
+}
+.body{
+  background-color:var(--backApp);
+  font-family: 'Nunito Sans', sans-serif;
+}
+:root{
+  --backApp:#fafafa;
+  --backComponent:#ffffff;
+  --color:#000000;
+}
+
+img{
+  height:168px;
+  object-fit:cover;
+}
+input,select{
+  outline:none;
+  background-color:var(--backComponent);
+  color:var(--color);
+}
+.header{
+  background-color:var(--backComponent);
+  color:var(--color);
+}
+.header button{
+  background-color:var(--backComponent);
+  color:var(--color);
+}
+.card-body{
+  background:var(--backComponent);
+}
+h2,h4,p,span{
+  color:var(--color);
+}
+.py-5 .btn-detail{
+  background:var(--backComponent);
+  color:var(--color);
+  transition:none;
+}
+.icon{
+  width:16px;
+  height:16px;
+}
+.search{
+  background:var(--backComponent);
+}
+.dark-mode{
+  --backApp:#202d36;
+  --backComponent:#2b3743;
+  --color:#ffffff;
+}
+
+@media(max-width:580px){
+  .search{
+    width:100%;
+  }
+}
