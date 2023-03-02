@@ -12,7 +12,7 @@ const Detail = (props) =>{
     const path = window.location.pathname;
 
     useEffect(()=>{
-        fetch(`https://restcountries.eu/rest/v2/name${path}`)
+        fetch(`https://restcountries.com/v2/name${path}`)
         .then(res => res.json())
         .then((result)=>{
             setCountry(result[0]);
